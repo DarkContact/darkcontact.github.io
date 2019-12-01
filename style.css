@@ -1,8 +1,91 @@
 * {
-	font-family: 'Marmelad', sans-serif;
+  font-family: 'Marmelad', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 p {
-	margin-left: 5%;
-	margin-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: 1px solid #2d682f;
+  border-radius: 10px;
+  box-shadow: 0 5px #2d682f;
+}
+
+.button:hover {
+  background-color: #3e8e41
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #2d682f;
+  transform: translateY(4px);
+}
+
+
+.footer {
+  margin: 24px 0;
+  text-align: center;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 6px;
+  margin: 0 18px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
