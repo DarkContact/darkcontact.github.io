@@ -1,21 +1,17 @@
 * {
   font-family: 'Marmelad', sans-serif;
+  font-weight: 400;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 32px;
-  font-weight: 400;
-}
-
-p {
-  margin-left: 5%;
-  margin-right: 5%;
+  font-size: 36px;
+  margin-bottom: 18px;
 }
 
 .button {
   display: inline-block;
-  padding: 8px 20px;
+  padding: 5px 20px;
   cursor: pointer;
   font-size: 24px;
   text-align: center;
@@ -37,6 +33,10 @@ p {
   transform: translateY(4px);
 }
 
+div.linkButton {
+  margin-bottom: 18px;
+  text-align: center;
+}
 
 .footer {
   margin: 24px 0;
@@ -57,7 +57,7 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 12px;
   text-align: center;
 }
 
@@ -66,20 +66,18 @@ div.desc {
 }
 
 .responsive {
-  padding: 6px;
-  margin: 0 18px;
+  padding: 18px;
   float: left;
-  width: 24.99999%;
+  width: 33.33%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
   .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+    width: 50%;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .responsive {
     width: 100%;
   }
