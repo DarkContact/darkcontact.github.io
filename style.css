@@ -1,6 +1,6 @@
 * {
   font-family: 'Gabriela', serif;
-  font-weight: 400;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -11,16 +11,15 @@ h1 {
 
 .button {
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 25px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background-color: #4CAF50;
-  border: 1px solid #2d682f;
+  background-color: #4caf50;
   border-radius: 10px;
-  box-shadow: 0 5px #2d682f;
+  box-shadow: 0 4px #2d682f;
 }
 
 .button:hover {
@@ -30,7 +29,7 @@ h1 {
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 1px #2d682f;
-  transform: translateY(4px);
+  transform: translateY(3px);
 }
 
 div.linkButton {
@@ -40,43 +39,49 @@ div.linkButton {
 }
 
 .footer {
+  font-family: 'Montserrat', sans-serif;
   margin: 24px 0;
   text-align: center;
 }
 
 div.gallery {
-  border: 1px solid #ccc;
-  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+  border: 1px solid #aaa;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
   border-radius: 5px 5px 5px 5px;
+  background: rgba(245,237,217,0.4);
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #666;
+  background: rgba(245,237,217,0.7);
 }
 
 div.gallery img {
-  border-radius: 5px 5px 0px 0px;
+  /* object-fit: cover; */
+  /* object-position: 0 100%; */
+  
+  border-radius: 5px 5px 0 0;
   width: 100%;
   height: auto;
+  /* height: 420px; */
 }
 
 div.title {
+  font-weight: 700;
   padding: 2px;
   font-size: 24px;
   text-align: center;
-  font-weight: 700;
 }
 
-div.desc {
+div.description {
+  font-family: 'Montserrat', sans-serif;
   padding: 6px;
   text-align: center;
-}
-
-* {
-  box-sizing: border-box;
+  color: #333;
 }
 
 .responsive {
+  /* padding: 2% 1%; */
   padding: 18px;
   float: left;
   width: 33.33%;
