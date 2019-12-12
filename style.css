@@ -3,32 +3,36 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 100%;
+}
+
 h1 {
+  font-size: 2.475em;
   text-align: center;
-  font-size: 42px;
-  margin-bottom: 18px;
+  margin-top: 0.5%;
+  margin-bottom: 0.75%;
 }
 
 .button {
   display: inline-block;
   padding: 5px 25px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 1.375em;
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background-color: #4caf50;
+  background-color: #449d44;
   border-radius: 10px;
-  box-shadow: 0 4px #2d682f;
+  box-shadow: 0 4px #275f29;
 }
 
 .button:hover {
-  background-color: #3e8e41
+  background-color: #4caf4c
 }
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 1px #2d682f;
+  box-shadow: 0 1px #275f29;
   transform: translateY(3px);
 }
 
@@ -38,9 +42,14 @@ div.linkButton {
   text-align: center;
 }
 
+.content {
+  margin: 0 1.5%;
+  min-height: 94.5vh;
+}
+
 .footer {
   font-family: 'Montserrat', sans-serif;
-  margin: 24px 0;
+  margin: 0.5% 0;
   text-align: center;
 }
 
@@ -69,7 +78,7 @@ div.gallery img {
 div.title {
   font-weight: 700;
   padding: 2px;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: center;
 }
 
