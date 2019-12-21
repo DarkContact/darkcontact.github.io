@@ -14,7 +14,7 @@ h1 {
   margin-bottom: 0.75%;
 }
 
-.button {
+a.button {
   display: inline-block;
   padding: 5px 25px;
   cursor: pointer;
@@ -27,13 +27,17 @@ h1 {
   box-shadow: 0 4px #275f29;
 }
 
-.button:hover {
+a.button:hover {
   background-color: #4caf4c
 }
 
-.button:active {
+a.button:active {
   box-shadow: 0 1px #275f29;
   transform: translateY(3px);
+}
+
+a.button, a.button:active, a.button:hover {
+  transition: 50ms linear;
 }
 
 div.linkButton {
@@ -44,13 +48,34 @@ div.linkButton {
 
 .content {
   margin: 0 1.5%;
-  min-height: 94.5vh;
+  min-height: calc(100vh - 96px);
 }
 
 .footer {
   font-family: 'Montserrat', sans-serif;
   margin: 0.5% 0;
   text-align: center;
+}
+
+.icon-vk {
+  width: calc(576px / 15);
+}
+
+.icon-github {
+  width: calc(496px / 15);
+}
+
+.social img {
+  opacity: 0.6;
+  margin-bottom: 4px;
+}
+
+.social img:hover {
+  opacity: 1;
+}
+
+.social img, .social img:hover {
+  transition: 400ms ease;
 }
 
 div.gallery {
@@ -62,7 +87,12 @@ div.gallery {
 
 div.gallery:hover {
   border: 1px solid #666;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.25);
   background: rgba(245,237,217,0.7);
+}
+
+div.gallery, div.gallery:hover {
+  transition: 400ms ease;
 }
 
 div.gallery img {
