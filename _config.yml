@@ -1,12 +1,12 @@
 theme: jekyll-theme-cayman
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 include:
   - CodeStyle.md
