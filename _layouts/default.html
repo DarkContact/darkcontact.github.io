@@ -5,8 +5,16 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="navigation.css">
   </head>
   <body>
+    <div class="navbar">
+        <a href="index.html">Games</a>
+        <a href="CodeStyle.html">CodeStyle</a>
+    </div>
+  
     <main id="content" class="main-content" role="main">
       {{ content }}
     </main>

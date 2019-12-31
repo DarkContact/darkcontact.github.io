@@ -5,13 +5,14 @@
 
 body {
   font-size: 100%;
+  margin: 0;
 }
 
 h1 {
   font-size: 2.475em;
   text-align: center;
-  margin-top: 0.5%;
-  margin-bottom: 0.75%;
+  margin: 0;
+  padding: 48px 0 8px 0;
 }
 
 a.button {
@@ -47,8 +48,8 @@ div.linkButton {
 }
 
 .content {
-  margin: 0 2%;
-  min-height: calc(100vh - 96px);
+  margin: 0 2.5%;
+  min-height: calc(100vh - 90px);
 }
 
 .footer {
@@ -75,7 +76,7 @@ div.linkButton {
 }
 
 .social img, .social img:hover {
-  transition: 400ms ease;
+  transition: 250ms ease;
 }
 
 div.gallery {
@@ -92,7 +93,7 @@ div.gallery:hover {
 }
 
 div.gallery, div.gallery:hover {
-  transition: 400ms ease;
+  transition: 250ms ease;
 }
 
 div.gallery img {
@@ -101,7 +102,7 @@ div.gallery img {
   
   border-radius: 5px 5px 0 0;
   width: 100%;
-  height: 420px;
+  height: 414px;
 }
 
 div.title {
@@ -132,7 +133,7 @@ div.description {
   }
   
   .content {
-    margin: 0 1%;
+    margin: 0 1.5%;
   }
   
   div.gallery img {
