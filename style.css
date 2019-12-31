@@ -126,9 +126,15 @@ div.description {
   width: 33.33%;
 }
 
+@media only screen and (max-height: 699px) {
+  div.gallery img {
+    height: 360px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .responsive {
-    padding: 2%;
+    padding: 1.5%;
     width: 50%;
   }
   
@@ -138,6 +144,10 @@ div.description {
   
   div.gallery img {
     height: 360px;
+  }
+  
+  h1 {
+    padding: 40px 0 0 0;
   }
 }
 
