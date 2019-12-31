@@ -1,11 +1,11 @@
 # Code Style #
 
 ## Table of Contents ##
-|Heading|Subtitle|
-|:-:|:-:|
-|Naming|File naming&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variable naming|
-|Formatting||
-|References||
+|   Heading  |             Subtitle            |
+|:----------:|:-------------------------------:|
+|   Naming   | File naming     Variable naming |
+| Formatting |                                 |
+| References |                                 |
 
 ## Naming ##
 
