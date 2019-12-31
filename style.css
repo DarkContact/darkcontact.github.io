@@ -9,10 +9,10 @@ body {
 }
 
 h1 {
-  font-size: 2.475em;
+  font-size: 2.4em;
   text-align: center;
   margin: 0;
-  padding: 48px 0 8px 0;
+  padding: 46px 0 4px 0;
 }
 
 a.button {
@@ -137,7 +137,7 @@ div.description {
   }
   
   div.gallery img {
-    height: 380px;
+    height: 360px;
   }
 }
 
@@ -148,11 +148,11 @@ div.description {
   }
   
   .content {
-    margin: 0 0.5%;
+    margin: 0 1%;
   }
   
   div.gallery img {
-    height: 350px;
+    height: 300px;
   }
 }
 
