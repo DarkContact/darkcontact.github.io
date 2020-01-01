@@ -21,7 +21,7 @@
       {{ content }}
       
       <footer class="site-footer">
-        <span class="site-footer-credits">This page was generated at {{ page.date | date: "%d.%m.%Y %R" }}</span>
+        <span class="site-footer-credits">This page last modified at {{ page.last_modified_at | date: '%d.%m.%Y %R' }}</span>
       </footer>
     </main>
   </body>

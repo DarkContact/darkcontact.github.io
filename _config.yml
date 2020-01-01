@@ -5,6 +5,7 @@ commonmark:
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 plugins:
   - jekyll-relative-links
+  - jekyll-last-modified-at
 relative_links:
   enabled: true
   collections: true
