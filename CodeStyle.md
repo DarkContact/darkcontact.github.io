@@ -426,12 +426,12 @@ for (auto&& item : items) {}
 ```
 
 ## References:
-* [Google](https://google.github.io/styleguide/cppguide.html)
-* [GeoSoft](https://geosoft.no/development/cppstyle.html)
-* [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
-* [Qt](https://doc-snapshots.qt.io/qtcreator-extending/coding-style.html)
-* [PVS-Studio](https://www.viva64.com/ru/b/0391/)
-* [Mozilla](https://firefox-source-docs.mozilla.org/tools/lint/coding-style/coding_style_cpp.html)
-* [Cpp Best Practices](https://github.com/lefticus/cppbestpractices/blob/master/03-Style.md)
-* [LLVM](https://llvm.org/docs/CodingStandards.html)
-* [Corrade](https://doc.magnum.graphics/corrade/corrade-coding-style.html)
+* [Google]( https://google.github.io/styleguide/cppguide.html )
+* [GeoSoft]( https://geosoft.no/development/cppstyle.html )
+* [C++ Core Guidelines]( https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines )
+* [Qt]( https://doc-snapshots.qt.io/qtcreator-extending/coding-style.html )
+* [PVS-Studio]( https://www.viva64.com/ru/b/0391 )
+* [Mozilla]( https://firefox-source-docs.mozilla.org/tools/lint/coding-style/coding_style_cpp.html )
+* [Cpp Best Practices]( https://github.com/lefticus/cppbestpractices/blob/master/03-Style.md )
+* [LLVM]( https://llvm.org/docs/CodingStandards.html )
+* [Corrade]( https://doc.magnum.graphics/corrade/corrade-coding-style.html )

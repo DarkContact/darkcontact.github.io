@@ -67,14 +67,14 @@ div.linkButton {
 }
 
 .pixelated {
-  image-rendering:optimizeSpeed;             /* Legal fallback */
-  image-rendering:-moz-crisp-edges;          /* Firefox        */
-  image-rendering:-o-crisp-edges;            /* Opera          */
-  image-rendering:-webkit-optimize-contrast; /* Safari         */
-  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
-  image-rendering:crisp-edges;               /* CSS4 Proposed  */
-  image-rendering:pixelated;                 /* CSS4 Proposed  */
-  -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+  image-rendering:optimizeSpeed;
+  image-rendering:-moz-crisp-edges;
+  image-rendering:-o-crisp-edges;
+  image-rendering:-webkit-optimize-contrast;
+  image-rendering:optimize-contrast;
+  image-rendering:crisp-edges;
+  image-rendering:pixelated;
+  -ms-interpolation-mode:nearest-neighbor;
 }
 
 .social img {
@@ -93,12 +93,12 @@ div.linkButton {
 div.gallery {
   border: 1px solid #aaa;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 6px;
   background: rgba(245,237,217,0.4);
 }
 
 div.gallery:hover {
-  border: 1px solid #666;
+  border-color: #666;
   box-shadow: 0 3px 4px 0 rgba(0,0,0,0.25);
   background: rgba(245,237,217,0.7);
 }
