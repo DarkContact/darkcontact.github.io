@@ -2,8 +2,8 @@
 Last update: 11.01.2020
 
 ## Table of Contents
-| | Subtitle |
-|:--|:-:|
+| Title | Subtitle |
+|:--|:--|
 | [Naming](#naming) | [File naming](#file-naming) &nbsp;&nbsp;&nbsp; [Variable naming](#variable-naming) &nbsp;&nbsp;&nbsp; [Constants naming](#constants-naming) &nbsp;&nbsp;&nbsp; [Type naming](#type-naming) &nbsp;&nbsp;&nbsp; [Enums naming](#enums-naming) &nbsp;&nbsp;&nbsp; [Class members naming](#class-members-naming) &nbsp;&nbsp;&nbsp; [Plural form naming](#plural-form-naming) &nbsp;&nbsp;&nbsp; [Function and methods naming](#function-and-methods-naming) &nbsp;&nbsp;&nbsp; [Boolean naming](#boolean-naming) |
 | [Formatting](#formatting) | [Spaces vs. Tabs](#spaces-vs-tabs) &nbsp;&nbsp;&nbsp; [Compound statement](#compound-statement) &nbsp;&nbsp;&nbsp; [Switch statement](#switch-statement) &nbsp;&nbsp;&nbsp; [Whitespace](#whitespace) &nbsp;&nbsp;&nbsp; [Line Breaks](#line-breaks) &nbsp;&nbsp;&nbsp; [Preprocessor idents](#preprocessor-idents) |
 | [Code structure](#code-structure) | [Order of includes](#order-of-includes) &nbsp;&nbsp;&nbsp; [Class structure](#class-structure) &nbsp;&nbsp;&nbsp; [Keep lines a reasonable length](#keep-lines-a-reasonable-length) |
