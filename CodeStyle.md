@@ -1,14 +1,14 @@
 # C++ Style Guide
-Last update: 01.01.2020
+Last update: 11.01.2020
 
 ## Table of Contents
-|                                   | Subtitle |
-|:----------------------------------|:--------:|
-| [Naming](#naming)                 |          |
-| [Formatting](#formatting)         |          |
-| [Code structure](#code-structure) |          |
-| [C++ Features](#c-features)       |          |
-| [References](#references)         |          |
+| | Subtitle |
+|:--|:-:|
+| [Naming](#naming) | [File naming](#file-naming) &nbsp;&nbsp;&nbsp; [Variable naming](#variable-naming) &nbsp;&nbsp;&nbsp; [Constants naming](#constants-naming) &nbsp;&nbsp;&nbsp; [Type naming](#type-naming) &nbsp;&nbsp;&nbsp; [Enums naming](#enums-naming) &nbsp;&nbsp;&nbsp; [Class members naming](#class-members-naming) &nbsp;&nbsp;&nbsp; [Plural form naming](#plural-form-naming) &nbsp;&nbsp;&nbsp; [Function and methods naming](#function-and-methods-naming) &nbsp;&nbsp;&nbsp; [Boolean naming](#boolean-naming) |
+| [Formatting](#formatting) | [Spaces vs. Tabs](#spaces-vs-tabs) &nbsp;&nbsp;&nbsp; [Compound statement](#compound-statement) &nbsp;&nbsp;&nbsp; [Switch statement](#switch-statement) &nbsp;&nbsp;&nbsp; [Whitespace](#whitespace) &nbsp;&nbsp;&nbsp; [Line Breaks](#line-breaks) &nbsp;&nbsp;&nbsp; [Preprocessor idents](#preprocessor-idents) |
+| [Code structure](#code-structure) | [Order of includes](#order-of-includes) &nbsp;&nbsp;&nbsp; [Class structure](#class-structure) &nbsp;&nbsp;&nbsp; [Keep lines a reasonable length](#keep-lines-a-reasonable-length) |
+| [C++ Features](#c-features) | [Initialize list](#initialize-list) &nbsp;&nbsp;&nbsp; [Const](#const) &nbsp;&nbsp;&nbsp; [Comments](#comments) &nbsp;&nbsp;&nbsp; [Pointers and references](#pointers-and-references) &nbsp;&nbsp;&nbsp; [Casts](#casts) &nbsp;&nbsp;&nbsp; [Namespaces](#namespaces) &nbsp;&nbsp;&nbsp; [Getter and setter](#getter-and-setter) &nbsp;&nbsp;&nbsp; [Passing by value or const reference](#passing-by-value-or-const-reference) &nbsp;&nbsp;&nbsp; [Lambdas](#lambdas) &nbsp;&nbsp;&nbsp; [Smart Pointers](#smart-pointers) &nbsp;&nbsp;&nbsp; [Auto](#auto) &nbsp;&nbsp;&nbsp; [R-value references](#r-value-references) |
+| [References](#references) |  |
 
 ## Naming
 
@@ -425,7 +425,7 @@ for (const auto& button : m_buttons) {
 for (auto&& item : items) {}
 ```
 
-## References:
+## References
 * [Google]( https://google.github.io/styleguide/cppguide.html )
 * [GeoSoft]( https://geosoft.no/development/cppstyle.html )
 * [C++ Core Guidelines]( https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines )

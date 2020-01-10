@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 36px;
+  margin: -36px 0 0;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
