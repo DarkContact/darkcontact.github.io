@@ -2,12 +2,12 @@
 Last update: 11.01.2020
 
 ## Table of Contents
-| Title | Subtitle |
+| Title | |
 |:--|:--|
-| [Naming](#naming) | [File naming](#file-naming) &nbsp;&nbsp;&nbsp; [Variable naming](#variable-naming) &nbsp;&nbsp;&nbsp; [Constants naming](#constants-naming) &nbsp;&nbsp;&nbsp; [Type naming](#type-naming) &nbsp;&nbsp;&nbsp; [Enums naming](#enums-naming) &nbsp;&nbsp;&nbsp; [Class members naming](#class-members-naming) &nbsp;&nbsp;&nbsp; [Plural form naming](#plural-form-naming) &nbsp;&nbsp;&nbsp; [Function and methods naming](#function-and-methods-naming) &nbsp;&nbsp;&nbsp; [Boolean naming](#boolean-naming) |
-| [Formatting](#formatting) | [Spaces vs. Tabs](#spaces-vs-tabs) &nbsp;&nbsp;&nbsp; [Compound statement](#compound-statement) &nbsp;&nbsp;&nbsp; [Switch statement](#switch-statement) &nbsp;&nbsp;&nbsp; [Whitespace](#whitespace) &nbsp;&nbsp;&nbsp; [Line Breaks](#line-breaks) &nbsp;&nbsp;&nbsp; [Preprocessor idents](#preprocessor-idents) |
-| [Code structure](#code-structure) | [Order of includes](#order-of-includes) &nbsp;&nbsp;&nbsp; [Class structure](#class-structure) &nbsp;&nbsp;&nbsp; [Keep lines a reasonable length](#keep-lines-a-reasonable-length) |
-| [C++ Features](#c-features) | [Initialize list](#initialize-list) &nbsp;&nbsp;&nbsp; [Const](#const) &nbsp;&nbsp;&nbsp; [Comments](#comments) &nbsp;&nbsp;&nbsp; [Pointers and references](#pointers-and-references) &nbsp;&nbsp;&nbsp; [Casts](#casts) &nbsp;&nbsp;&nbsp; [Namespaces](#namespaces) &nbsp;&nbsp;&nbsp; [Getter and setter](#getter-and-setter) &nbsp;&nbsp;&nbsp; [Passing by value or const reference](#passing-by-value-or-const-reference) &nbsp;&nbsp;&nbsp; [Lambdas](#lambdas) &nbsp;&nbsp;&nbsp; [Smart Pointers](#smart-pointers) &nbsp;&nbsp;&nbsp; [Auto](#auto) &nbsp;&nbsp;&nbsp; [R-value references](#r-value-references) |
+| [Naming](#naming) | [File naming](#file-naming) &nbsp;&nbsp; [Variable naming](#variable-naming) &nbsp;&nbsp; [Constants naming](#constants-naming) &nbsp;&nbsp; [Type naming](#type-naming) &nbsp;&nbsp; [Enums naming](#enums-naming) &nbsp;&nbsp; [Class members naming](#class-members-naming) &nbsp;&nbsp; [Plural form naming](#plural-form-naming) &nbsp;&nbsp; [Function and methods naming](#function-and-methods-naming) &nbsp;&nbsp; [Boolean naming](#boolean-naming) |
+| [Formatting](#formatting) | [Spaces vs. Tabs](#spaces-vs-tabs) &nbsp;&nbsp; [Compound statement](#compound-statement) &nbsp;&nbsp; [Switch statement](#switch-statement) &nbsp;&nbsp; [Whitespace](#whitespace) &nbsp;&nbsp; [Line Breaks](#line-breaks) &nbsp;&nbsp; [Preprocessor idents](#preprocessor-idents) |
+| [Code structure](#code-structure) | [Order of includes](#order-of-includes) &nbsp;&nbsp; [Class structure](#class-structure) &nbsp;&nbsp; [Keep lines a reasonable length](#keep-lines-a-reasonable-length) |
+| [C++ Features](#c-features) | [Initialize list](#initialize-list) &nbsp;&nbsp; [Const](#const) &nbsp;&nbsp; [Comments](#comments) &nbsp;&nbsp; [Pointers and references](#pointers-and-references) &nbsp;&nbsp; [Casts](#casts) &nbsp;&nbsp; [Namespaces](#namespaces) &nbsp;&nbsp; [Getter and setter](#getter-and-setter) &nbsp;&nbsp; [Passing by value or const reference](#passing-by-value-or-const-reference) &nbsp;&nbsp; [Lambdas](#lambdas) &nbsp;&nbsp; [Smart Pointers](#smart-pointers) &nbsp;&nbsp; [Auto](#auto) &nbsp;&nbsp; [R-value references](#r-value-references) |
 | [References](#references) |  |
 
 ## Naming
@@ -167,7 +167,7 @@ if (longExpression ||
  #define OUT OutputHelper::release
 #else
  #define OUT OutputHelper(__FILE__, __LINE__, "\033[32m"/*Green*/).debug
-#endif //NDEBUG
+#endif // NDEBUG
 ```
 
 ## Code structure
@@ -347,7 +347,7 @@ Point getCenter() const;
 Point getPosition() const;
 
 void setPosition(Point value);
-//or
+// or
 void setPosition(Point point);
 ```
 
@@ -364,7 +364,7 @@ Renderer& renderer();
 The general rule of thumb for passing by value is when you would end up making a copy anyway. That is to say that rather than doing this:
 
 ```c++
-//https://stackoverflow.com/questions/24543330/when-is-a-const-reference-better-than-pass-by-value-in-c11
+// https://stackoverflow.com/questions/24543330/when-is-a-const-reference-better-than-pass-by-value-in-c11
 
 void f(const std::vector<int>& x) {
     std::vector<int> y(x);
