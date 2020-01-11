@@ -1,5 +1,5 @@
 ﻿* {
-  font-family: 'Gabriela', serif;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
 
@@ -9,13 +9,28 @@ body {
 }
 
 h1 {
+  font-family: 'Gabriela', serif;
   font-size: 2.4em;
   text-align: center;
   margin: 0;
   padding: 46px 0 4px 0;
 }
 
+a {
+  text-decoration: none;
+  color: #2c2cff;
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+a:visited {
+  color: #619de6
+}
+
 a.button {
+  font-family: 'Gabriela', serif;
   display: inline-block;
   padding: 5px 25px;
   cursor: pointer;
@@ -53,7 +68,6 @@ div.linkButton {
 }
 
 .footer {
-  font-family: 'Montserrat', sans-serif;
   margin: 0.5% 0;
   text-align: center;
 }
@@ -67,14 +81,12 @@ div.linkButton {
 }
 
 .pixelated {
-  image-rendering:optimizeSpeed;
   image-rendering:-moz-crisp-edges;
   image-rendering:-o-crisp-edges;
   image-rendering:-webkit-optimize-contrast;
   image-rendering:optimize-contrast;
   image-rendering:crisp-edges;
   image-rendering:pixelated;
-  -ms-interpolation-mode:nearest-neighbor;
 }
 
 .social img {
@@ -117,6 +129,7 @@ div.gallery img {
 }
 
 div.title {
+  font-family: 'Gabriela', serif;
   font-weight: 700;
   padding: 2px;
   font-size: 1.5em;
@@ -124,7 +137,6 @@ div.title {
 }
 
 div.description {
-  font-family: 'Montserrat', sans-serif;
   padding: 4px;
   text-align: center;
   color: #333;
@@ -132,7 +144,7 @@ div.description {
 }
 
 .responsive {
-  padding: 1%;
+  padding: 1% 1.5%;
   float: left;
   width: 33.33%;
 }
