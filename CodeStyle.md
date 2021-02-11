@@ -1,5 +1,5 @@
 # C++ Style Guide
-Last update: 11.01.2020
+Last update: 29.04.2020
 
 ## Table of Contents
 | Title | |
@@ -429,9 +429,9 @@ for (auto&& item : items) {}
 * [Google]( https://google.github.io/styleguide/cppguide.html )
 * [GeoSoft]( https://geosoft.no/development/cppstyle.html )
 * [C++ Core Guidelines]( https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines )
-* [Qt]( https://doc-snapshots.qt.io/qtcreator-extending/coding-style.html )
+* [Qt]( https://wiki.qt.io/Qt_Coding_Style )
 * [PVS-Studio]( https://www.viva64.com/ru/b/0391 )
-* [Mozilla]( https://firefox-source-docs.mozilla.org/tools/lint/coding-style/coding_style_cpp.html )
+* [Mozilla]( https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html )
 * [Cpp Best Practices]( https://github.com/lefticus/cppbestpractices/blob/master/03-Style.md )
 * [LLVM]( https://llvm.org/docs/CodingStandards.html )
 * [Corrade]( https://doc.magnum.graphics/corrade/corrade-coding-style.html )
