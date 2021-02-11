@@ -62,6 +62,10 @@ div.linkButton {
   text-align: center;
 }
 
+.bg {
+  background-image: url('images/bg.svg');
+}
+
 .content {
   margin: 0 2.5%;
   min-height: calc(100vh - 90px);
