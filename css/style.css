@@ -63,7 +63,7 @@ div.linkButton {
 }
 
 .bg {
-  background-image: url('images/bg.svg');
+  background-image: url('../images/bg.svg');
 }
 
 .content {
