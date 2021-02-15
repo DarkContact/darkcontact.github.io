@@ -3,6 +3,7 @@
   font-family: 'Gabriela';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/gabriela-v9-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/gabriela-v9-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -17,6 +18,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url('../fonts/montserrat-v15-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('../fonts/montserrat-v15-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
