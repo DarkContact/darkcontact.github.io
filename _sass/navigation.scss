@@ -14,7 +14,7 @@
   line-height: normal;
 }
 
-.navbar a {
+.navbar:not(.current) a {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   text-decoration: none;
@@ -25,16 +25,16 @@
   padding: 8px 16px;
 }
 
-.navbar a:hover {
+.navbar:not(.current) a:hover {
   background: #ddd;
   color: black;
   text-decoration: none;
 }
 
-.navbar .current a {
+.current a {
   color: gold;
 }
 
-.navbar .current a:hover {
+.current a:hover {
   color: chocolate;
 }
