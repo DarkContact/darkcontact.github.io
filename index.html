@@ -1,12 +1,13 @@
 ---
 layout: null
+image_hint: Кликните чтобы увидеть изображение целиком
 ---
 <!DOCTYPE html>
 <html>
   <head> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
     
     <title>My Secret Place</title>
     <meta name="description" content="Страничка с моими инди играми">
@@ -26,7 +27,7 @@ layout: null
       
       <div class="responsive">
         <div class="gallery">
-          <a title="Кликните чтобы увидеть изображение целиком" target="_blank" href="images/hungryBox.png">
+          <a title="{{ page.image_hint }}" target="_blank" href="images/hungryBox.png">
             <img class="pixelated" src="images/hungryBox.png" alt="Hungry Box">
           </a>
           <div class="title">Hungry Box</div>
@@ -37,7 +38,7 @@ layout: null
       
       <div class="responsive">
         <div class="gallery">
-          <a title="Кликните чтобы увидеть изображение целиком" target="_blank" href="images/towerDefense.png">
+          <a title="{{ page.image_hint }}" target="_blank" href="images/towerDefense.png">
             <img class="pixelated" src="images/towerDefense.png" alt="Tower Defense">
           </a>
           <div class="title">Tower Defense</div>
@@ -48,7 +49,7 @@ layout: null
       
       <div class="responsive">
         <div class="gallery">
-          <a title="Кликните чтобы увидеть изображение целиком" target="_blank" href="images/bossRush.png">
+          <a title="{{ page.image_hint }}" target="_blank" href="images/bossRush.png">
             <img class="pixelated" src="images/bossRush.png" alt="Boss Rush">
           </a>
           <div class="title">Boss Rush</div>
