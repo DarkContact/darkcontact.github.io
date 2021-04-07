@@ -13,3 +13,7 @@ relative_links:
   collections: false
   include:
     - CodeStyle.md
+    
+sass:
+  sass_dir: _sass
+  style: compressed
