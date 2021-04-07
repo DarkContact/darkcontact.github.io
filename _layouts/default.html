@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="css/fonts+navigation.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <title>{{ page.name }}</title>
+    <title>{{ page.title }}</title>
   </head>
   <body>
-    <div class="navbar">
-        <a href="/">Игры</a>
-        <a href="CodeStyle">C++ Style Guide</a>
-    </div>
+    {% include navigation.html %}
     <br>
   
     <main id="content" class="main-content" role="main">

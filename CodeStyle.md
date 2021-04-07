@@ -1,3 +1,6 @@
+---
+title: C++ Style Guide
+---
 # C++ Style Guide
 Last update: 29.04.2020
 
