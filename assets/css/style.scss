@@ -1,7 +1,7 @@
 ---
 ---
-@import "{{ site.theme }}";
-
 @import "fonts";
 @import "style";
 @import "navigation";
+
+@import "{{ site.theme }}";
