@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth
-}
-
 :target::before {
   content: "";
   display: block;
@@ -32,4 +28,12 @@ html {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+.current {
+  color: gold;
+}
+
+.current:hover {
+  color: chocolate;
 }

@@ -1,8 +1,7 @@
 <nav class="navbar">
-  <a href="/" {% if page.url == "/" %}style="color: gold;"{% endif %}>
-    Игры
-  </a>
-  <a href="/CodeStyle.html" {% if page.url == "/CodeStyle.html" %}style="color: gold;"{% endif %}>
-    C++ Style Guide
-  </a>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
 </nav>
