@@ -12,7 +12,7 @@ commonmark:
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
  
 # for jekyll-sitemap
-url: "https://darkcontact.github.io/" 
+url: "https://darkcontact.github.io" 
 
 relative_links:
   enabled: true
@@ -23,3 +23,7 @@ relative_links:
 sass:
   sass_dir: _sass
   style: compressed
+  
+exclude:
+  - google29bef1b63874caf4.html
+  - yandex_35403b5c7aa6b72a.html
