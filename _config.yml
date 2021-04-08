@@ -1,15 +1,18 @@
 theme: jekyll-theme-cayman
 
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
-
 plugins:
   - jekyll-relative-links
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+ 
+# for jekyll-sitemap
+url: "https://darkcontact.github.io/" 
 
 relative_links:
   enabled: true
