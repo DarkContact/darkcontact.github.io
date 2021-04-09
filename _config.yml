@@ -10,9 +10,6 @@ markdown: CommonMarkGhPages
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
- 
-# for jekyll-sitemap
-url: "https://darkcontact.github.io" 
 
 relative_links:
   enabled: true
@@ -23,7 +20,19 @@ relative_links:
 sass:
   sass_dir: _sass
   style: compressed
-  
-exclude:
-  - google29bef1b63874caf4.html
-  - yandex_35403b5c7aa6b72a.html
+
+# for jekyll-sitemap
+url: "https://darkcontact.github.io" 
+
+# exclude pages from sitemap.xml
+defaults:
+  - 
+    scope:
+      path: "google29bef1b63874caf4.html"
+    values:
+      sitemap: false
+  - 
+    scope:
+      path: "yandex_35403b5c7aa6b72a.html"
+    values:
+      sitemap: false
