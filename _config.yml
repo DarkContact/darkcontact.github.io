@@ -1,38 +1,47 @@
 theme: jekyll-theme-cayman
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
+  - jekyll-commonmark-ghpages
   - jekyll-relative-links
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# for jekyll-commonmark-ghpages
+# docs for options: https://github.com/gjtorikian/commonmarker#options
+# docs for extensions: https://github.com/gjtorikian/commonmarker#extensions
 markdown: CommonMarkGhPages
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
+# for jekyll-relative-links
 relative_links:
   enabled: true
   collections: false
   include:
     - CodeStyle.md
-    
-sass:
-  sass_dir: _sass
-  style: compressed
 
 # for jekyll-sitemap
 url: "https://darkcontact.github.io" 
 
 # exclude pages from sitemap.xml
 defaults:
-  - 
-    scope:
+  - scope:
       path: "google29bef1b63874caf4.html"
     values:
       sitemap: false
-  - 
-    scope:
+  - scope:
       path: "yandex_35403b5c7aa6b72a.html"
     values:
       sitemap: false
+
+# for jekyll-seo-tag (ogp image)
+  # - scope:
+  #     path: ""
+  #   values:
+  #     image: /assets/images/default-card.png 
