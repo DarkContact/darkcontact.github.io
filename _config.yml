@@ -4,6 +4,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+exclude:
+  - README.md
+
 plugins:
   - jekyll-commonmark-ghpages
   - jekyll-relative-links
@@ -44,4 +47,4 @@ defaults:
   # - scope:
   #     path: ""
   #   values:
-  #     image: /assets/images/default-card.png 
+  #     image: /assets/images/default-card.png
