@@ -34,6 +34,8 @@ author: DarkContact
 
 # for jekyll-seo-tag
 title: DarkContact Secret Place
+tagline: Блог об играх и программировании
+description: Блог об играх и программировании
 locale: ru_RU
 
 # for jekyll-seo-tag (ogp image)
