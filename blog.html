@@ -2,13 +2,14 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<h1 align="center">Blog</h1>
+<h4><a href="https://darkcontact.github.io/feed.xml">RSS Feed<h4>
 
 <ul>
-  {% for post in site.posts %}
-    <li>
+  {%- for post in site.posts -%}
+      <p>{{ page.date | date: "%Y.%m.%d }}</p>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
-    </li>
-  {% endfor %}
+      <a href="{{ post.url }}">Read More</a>
+  {%- endfor -%}
 </ul>

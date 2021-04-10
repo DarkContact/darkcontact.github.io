@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% feed_meta %}
-    {% seo title=false %}
+    {% seo %}
   </head>
   <body>
     {% include navigation.html %}

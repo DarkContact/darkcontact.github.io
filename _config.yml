@@ -11,8 +11,8 @@ plugins:
   - jekyll-commonmark-ghpages
   - jekyll-relative-links
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # for jekyll-commonmark-ghpages
 # docs for options: https://github.com/gjtorikian/commonmarker#options
@@ -29,6 +29,19 @@ relative_links:
   include:
     - CodeStyle.md
 
+# jekyll-feed
+author: DarkContact
+
+# for jekyll-seo-tag
+title: DarkContact Secret Place
+locale: ru_RU
+
+# for jekyll-seo-tag (ogp image)
+  # - scope:
+  #     path: ""
+  #   values:
+  #     image: /assets/images/default-card.png
+
 # for jekyll-sitemap
 url: "https://darkcontact.github.io" 
 
@@ -42,9 +55,3 @@ defaults:
       path: "yandex_35403b5c7aa6b72a.html"
     values:
       sitemap: false
-
-# for jekyll-seo-tag (ogp image)
-  # - scope:
-  #     path: ""
-  #   values:
-  #     image: /assets/images/default-card.png

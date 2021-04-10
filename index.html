@@ -4,19 +4,13 @@ image_hint: Кликните чтобы увидеть изображение ц
 ---
 <!DOCTYPE html>
 <html>
-  <head> 
+  <head>
+    <title>Игры | DarkContact Secret Place</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/index.css?v=' | append: site.github.build_revision | relative_url }}">
     
-    <title>My Secret Place</title>
-    <meta name="description" content="Страничка с моими инди играми">
-    
-    <meta property="og:title" content="My Secret Place">
-    <meta property="og:description" content="Страничка с моими инди играми">
-    <meta property="og:image" content="https://darkcontact.github.io/images/towerDefense.png">
-    <meta property="og:url" content="https://darkcontact.github.io">
-    <meta name="twitter:card" content="summary_large_image">
+   {% seo title=false %}
   </head>
   
   <body style="background-image: url('images/bg.svg');">
