@@ -48,15 +48,12 @@ locale: ru_RU
 url: "https://darkcontact.github.io" 
 
 # exclude webmaster pages from sitemap.xml 
-# and makes them accessible from the root directory of the site
 defaults:
   - scope:
       path: "webmaster/google29bef1b63874caf4.html"
     values:
       sitemap: false
-      permalink: /google29bef1b63874caf4.html
   - scope:
       path: "webmaster/yandex_35403b5c7aa6b72a.html"
     values:
       sitemap: false
-      permalink: /yandex_35403b5c7aa6b72a.html
