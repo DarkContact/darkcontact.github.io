@@ -3,7 +3,5 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/DarkContact/darkcontact.github.io/deployments">
-    <img src="https://img.shields.io/github/deployments/DarkContact/darkcontact.github.io/github-pages?label=github%20pages%20deployment">
-  </a>
+  <img alt="GitHub branch checks state" src="https://img.shields.io/github/checks-status/DarkContact/darkcontact.github.io/master">
 </p>
