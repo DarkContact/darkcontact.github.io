@@ -53,7 +53,9 @@ defaults:
       path: "webmaster/google29bef1b63874caf4.html"
     values:
       sitemap: false
+      layout: null
   - scope:
       path: "webmaster/yandex_35403b5c7aa6b72a.html"
     values:
       sitemap: false
+      layout: null
