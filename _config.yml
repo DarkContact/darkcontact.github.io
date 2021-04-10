@@ -29,7 +29,7 @@ relative_links:
   include:
     - CodeStyle.md
 
-# jekyll-feed
+# for jekyll-feed
 author: DarkContact
 
 # for jekyll-seo-tag
