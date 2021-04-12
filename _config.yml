@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 
-permalink: /:title/
+permalink: /:title:output_ext
 
 sass:
   sass_dir: _sass

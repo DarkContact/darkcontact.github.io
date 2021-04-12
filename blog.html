@@ -8,8 +8,8 @@ title: Blog
 <div>
   {%- for post in site.posts -%}
       <h5 style="margin-bottom: 0; color: #bbb;">{{ post.date | date: "%d.%m.%Y" }}</h5>
-      <h2 style="margin-top: 0;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2 style="margin-top: 0;"><a href="{{ post.url | remove: '.html' }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
-      <a href="{{ post.url }}">Read More</a>
+      <a href="{{ post.url | remove: '.html' }}">Read More</a>
   {%- endfor -%}
 </div>
