@@ -49,14 +49,13 @@ locale: ru_RU
 # for jekyll-sitemap
 url: "https://darkcontact.github.io"
 
-
-defaults:
 # variables for all pages
+# exclude webmaster pages from sitemap.xml
+defaults:
   - scope:
     path: ""
     values:
       show_navigation: true
-# exclude webmaster pages from sitemap.xml
   - scope:
       path: "webmaster/google29bef1b63874caf4.html"
     values:
