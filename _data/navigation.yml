@@ -1,6 +1,6 @@
 - name: Игры
   link: /
 - name: C++ Style Guide
-  link: /cpp-code-style.html
+  link: /cpp-code-style
 - name: Blog # if changed, change _includes/navigation.html
-  link: /blog.html
+  link: /blog
