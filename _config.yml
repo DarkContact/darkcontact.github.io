@@ -47,10 +47,16 @@ locale: ru_RU
   #     image: /assets/images/default-card.png
 
 # for jekyll-sitemap
-url: "https://darkcontact.github.io" 
+url: "https://darkcontact.github.io"
 
-# exclude webmaster pages from sitemap.xml 
+
 defaults:
+# variables for all pages
+  - scope:
+    path: ""
+    values:
+      show_navigation: true
+# exclude webmaster pages from sitemap.xml
   - scope:
       path: "webmaster/google29bef1b63874caf4.html"
     values:
@@ -61,3 +67,5 @@ defaults:
     values:
       sitemap: false
       layout: null
+
+ 

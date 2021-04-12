@@ -7,7 +7,9 @@
     {% seo %}
   </head>
   <body>
-    {% include navigation.html %}
+    {% if page.show_navigation %}
+      {% include navigation.html %}
+    {% endif %}
     <br>
   
     <main id="content" class="main-content" role="main">
