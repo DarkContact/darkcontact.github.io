@@ -40,12 +40,6 @@ tagline: Блог об играх и программировании
 description: Блог об играх и программировании
 locale: ru_RU
 
-# for jekyll-seo-tag (ogp image)
-  # - scope:
-  #     path: ""
-  #   values:
-  #     image: /assets/images/default-card.png
-
 # for jekyll-sitemap
 url: "https://darkcontact.github.io"
 
@@ -53,7 +47,7 @@ url: "https://darkcontact.github.io"
 # exclude webmaster pages from sitemap.xml
 defaults:
   - scope:
-    path: ""
+      path: ""
     values:
       show_navigation: true
   - scope:
@@ -67,4 +61,9 @@ defaults:
       sitemap: false
       layout: null
 
+  # for jekyll-seo-tag (ogp image)
+  # - scope:
+  #     path: ""
+  #   values:
+  #     image: /assets/images/default-card.png
  
