@@ -1,5 +1,4 @@
 .pagination {
-  justify-content: center;
   display: inline-block;
 }
 
@@ -8,7 +7,6 @@
   float: left;
   padding: 8px 16px;
   text-decoration: none;
-  transition: background-color .3s;
   border: 1px solid #ddd;
 }
 
@@ -16,8 +14,10 @@
   background-color: #159957;
   color: white;
   border: 1px solid #159957;
+  text-decoration: none;
 }
 
 .pagination a:hover:not(.active) {
-  background-color: #ddd
+  background-color: #ddd;
+  text-decoration: none;
 }
