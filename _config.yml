@@ -47,11 +47,13 @@ defaults:
       path: ""
     values:
       show_navigation: true
+      blog_navigation_active: false
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      blog_navigation_active: true
   - scope:
       path: "webmaster/google29bef1b63874caf4.html"
     values:
@@ -66,6 +68,10 @@ defaults:
       path: "test"
     values:
       sitemap: false
+  - scope:
+      path: "blog"
+    values:
+      blog_navigation_active: true
 
   # for jekyll-seo-tag (ogp image)
   # - scope:

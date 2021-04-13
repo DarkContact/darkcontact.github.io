@@ -2,5 +2,5 @@
   link: /
 - name: C++ Style Guide
   link: /cpp-code-style/
-- name: Blog # if changed, change _includes/navigation.html
+- name: Blog
   link: /blog/
