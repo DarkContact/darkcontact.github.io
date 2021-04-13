@@ -38,7 +38,7 @@ url: "https://darkcontact.github.io"
 collections:
   posts:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:title:output_ext
 
 # variables for all pages
 # exclude webmaster pages from sitemap.xml
