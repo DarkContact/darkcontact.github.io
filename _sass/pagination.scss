@@ -3,7 +3,7 @@
 }
 
 .pagination a {
-  color: black;
+  color: #606c71;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
@@ -11,13 +11,17 @@
 }
 
 .pagination a.active {
-  background-color: #159957;
+  background-color: #4caf50;
   color: white;
-  border: 1px solid #159957;
+  border: 1px solid #4caf50;
   text-decoration: none;
 }
 
-.pagination a:hover:not(.active) {
+.pagination a.inactive {
+  color: #bbb;
+}
+
+.pagination a:hover:not(.active):not(.inactive) {
   background-color: #ddd;
   text-decoration: none;
 }

@@ -21,7 +21,7 @@ title: Blog
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">❮ Prev</a>
   {% else %}
-    <a>❮ Prev</a>
+    <a class="inactive">❮ Prev</a>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -37,7 +37,7 @@ title: Blog
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | relative_url }}">Next ❯</a>
   {% else %}
-    <a>Next ❯</a>
+    <a class="inactive">Next ❯</a>
   {% endif %}
 </div>
 {% endif %}
