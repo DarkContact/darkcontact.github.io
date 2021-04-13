@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 
-permalink: /:title:output_ext
+permalink: /:collection/:title/
 
 sass:
   sass_dir: _sass
@@ -14,6 +14,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 # for jekyll-commonmark-ghpages
 # docs for options: https://github.com/gjtorikian/commonmarker#options
@@ -35,10 +36,9 @@ locale: ru_RU
 # for jekyll-sitemap
 url: "https://darkcontact.github.io"
 
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:title:output_ext
+# for jekyll-paginate
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # variables for all pages
 # exclude webmaster pages from sitemap.xml
@@ -62,6 +62,10 @@ defaults:
     values:
       sitemap: false
       layout: null
+  - scope:
+      path: "test"
+    values:
+      sitemap: false
 
   # for jekyll-seo-tag (ogp image)
   # - scope:
