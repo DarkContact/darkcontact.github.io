@@ -1,8 +1,7 @@
 <nav class="navbar">
   {%- for item in site.data.navigation -%}
     <a href="{{ item.link }}"
-    {%- if page.url == item.link or item.name == 'Blog' and page.layout == 'post' or page.url | slice: 0, 3 == 'page' %} class="current"
-    {%- endif -%}>{{ item.name }}
-    </a>
+    {%- if page.url == item.link or item.name == 'Blog' and page.layout == 'post' or page.url %} class="current"
+    {%- endif -%}>{{ item.name }}</a>
   {%- endfor -%}
 </nav>
