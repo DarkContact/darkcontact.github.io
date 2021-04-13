@@ -22,7 +22,7 @@ plugins:
 markdown: CommonMarkGhPages
 commonmark:
   options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter", "tasklist"]
 
 # for jekyll-relative-links
 relative_links:
