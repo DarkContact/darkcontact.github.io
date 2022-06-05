@@ -13,7 +13,7 @@ h1 {
   font-size: 2.4em;
   text-align: center;
   margin: 0;
-  padding: 46px 0 4px 0;
+  padding: 46px 0 0 0;
 }
 
 a {
@@ -41,6 +41,8 @@ a.button {
   background-color: #449d44;
   border-radius: 10px;
   box-shadow: 0 4px #275f29;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 a.button:hover {
@@ -68,7 +70,7 @@ div.linkButton {
 }
 
 .footer {
-  margin: 0.5% 0;
+  margin: 0.25% 0;
   text-align: center;
 }
 
