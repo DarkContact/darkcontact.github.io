@@ -1,7 +1,21 @@
 ---
 layout: default
+comments: true
 ---
 <h1>{{ page.title }}</h1>
 <h5 style="margin-top: 0; color: #bbb;">{{ page.date | date: "%d.%m.%Y" }}</h5>
 
 {{ content }}
+
+{% if page.comments %}
+	<div id="disqus_thread"></div>
+	<script>
+		(function() {
+		var d = document, s = d.createElement('script');
+		s.src = 'https://https-darkcontact-github-io.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
