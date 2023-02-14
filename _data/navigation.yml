@@ -1,6 +1,6 @@
 - name: Игры
   link: /
+- name: Блог
+  link: /blog/
 - name: C++ Style Guide
   link: /cpp-code-style/
-- name: Blog
-  link: /blog/
